@@ -109,7 +109,7 @@ def displayS(number):
     for row in board:
         row = [str(i) for i in row]
         print (" | ".join(row))
-        print("***********01")
+        print("***********")
 
 from collections import deque
 def find(start):
